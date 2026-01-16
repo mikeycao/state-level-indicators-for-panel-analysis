@@ -41,7 +41,7 @@ _Notes_: We used a variable recording Hispanic origin (hispan) from the U.S. Cen
 
 B3. For measure 3, official government data on urban populations is affected by issues of missingness and definitional variation in how the U.S. Census Bureau quantifies urbanicity across census years and 1-year estimates. We attempted to overcome these two problems by implementing a linear spline interpolation of the Decennial Census of Population and Housing (available through the Iowa State University Community Indicators Program) that recorded the urban population percentages from 1900 to 2010. We elected to base our interpolation from the 2000 to 2010 data points because those years best coincided with our analytic years and shared a stable definition of what the Census Bureau defined as “urban”. We opted for a linear spline interpolation given the steady-state demographic growth observed in urbanicity percentages dating back to the 1900s as opposed to abrupt changes; the large gaps in the missing data; and the broadness of our panel across which we needed to interpolate data. 
 
-C. Compiled Index Data 
+## C. Compiled Index Data 
 
 We provide two `.csv` files that provide a standardization (z-score transformation) of all individual measures used to compile the poverty index and population heterogeneity index, as well as the compiled index value for each specific year and state. The `.csv` files are organized into a long-format to ease with data manipulation using statistical software. 
 
