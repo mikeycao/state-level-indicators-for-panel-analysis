@@ -26,3 +26,28 @@ _Notes_: Caseload data was drawn from calendar year averages of the total number
 A5. For measure 5, we used the following sources: State Health Access Data Assistance Center (SHADAC) accessing data through the ACS for single-years 2006 to 2018; 2000 to 2005 single-year data was copied from Hisnanick and Rogers (2007) of the U.S. Census Bureau analyzing ACS data (see: https://www.census.gov/content/dam/Census/library/working-papers/2007/demo/ACS-inequality-report-2000-2005_v2.pdf).
 
 _Notes_: 0 means perfect income equality; 1 means perfect income inequality; GINIs from 2000 to 2005 were rounded to two decimal places.
+
+## B. Composition of Population Heterogeneity Index 
+
+The Population Heterogeneity Index consists of (1) the foreign-born resident population (decimal %), (2) the Hispanic resident population (decimal %), and an interpolated measure of resident populations living in urban areas (decimal %). 
+
+B1. For measure 1, we used the following sources: U.S. Census and single-year ACS accessed via IPUMS.
+
+_Notes_: Foreign-born status was treated as those born as U.S. citizens (including those born in Puerto Rico, U.S. Virgin Islands, and Guam), using the birthplace (bpl) variable in the Census/ACS codebook. We also accounted for individuals foreign-born, but to parents with U.S. citizenship (and thus are considered native). Naturalized citizens are considered foreign-born for the purpose of our analysis.
+
+B2. For measure 2, we used the following sources: U.S. Census and single-year ACS accessed via IPUMS.
+
+_Notes_: We used a variable recording Hispanic origin (hispan) from the U.S. Census/ACS codebook. The variable simultaneously covers descents from Mexico and other Latin countries.
+
+B3. For measure 3, official government data on urban populations is affected by issues of missingness and definitional variation in how the U.S. Census Bureau quantifies urbanicity across census years and 1-year estimates. We attempted to overcome these two problems by implementing a linear spline interpolation of the Decennial Census of Population and Housing (available through the Iowa State University Community Indicators Program) that recorded the urban population percentages from 1900 to 2010. We elected to base our interpolation from the 2000 to 2010 data points because those years best coincided with our analytic years and shared a stable definition of what the Census Bureau defined as “urban”. We opted for a linear spline interpolation given the steady-state demographic growth observed in urbanicity percentages dating back to the 1900s as opposed to abrupt changes; the large gaps in the missing data; and the broadness of our panel across which we needed to interpolate data. 
+
+C. Compiled Index Data 
+
+We provide two `.csv` files that provide a standardization (z-score transformation) of all individual measures used to compile the poverty index and population heterogeneity index, as well as the compiled index value for each specific year and state. The `.csv` files are organized into a long-format to ease with data manipulation using statistical software. 
+
+_Notes_: For the poverty index, z1 refers to low educational attainment; z2 refers to the Black population share; z3 refers to individual poverty threshold rates; z4 refers to TANF cases; z5 refers to GINI coefficients. For the population heterogeneity index, z1 refers to the foreign born population; z2 refers to the Hispanic population; z3 refers to urbanicity.
+
+## D. Code 
+
+Analysis involving the poverty index and population heterogeneity index was undertaken using R. Mainly, we provide R code to analyze the reliability coefficients using Cronbach's alpha, and additional code that was used to implement the linear spline interpolation of urbanicity. 
+
