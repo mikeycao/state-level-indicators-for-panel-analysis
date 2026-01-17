@@ -1,4 +1,6 @@
-# Overview
+# S 2000-2018
+
+#racial inequalities in those differences 
 
 This repository is for making several compiled state-level sociodemographic indicators publicly available for use in panel (or cross-sectional) analyses covering changes in U.S. states over the last two decades (2000 to 2018). 
 The indicators are well-suited for panel studies of social inequality across state populations, and were originally compiled as covariates to adjust for ommitted variable bias, but they can also act as key predicators and outcome variables ipso facto. track national too
