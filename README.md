@@ -10,6 +10,8 @@ This repository is for making several compiled state-level sociodemographic indi
 
 The indicators track state-level socieconomic deprivation and population heterogeneity, and were originally compiled to support research estimating the conditional effects of mass punishment rates (e.g., incarceration/probation/parole) by accounting for commonly omitted confounders,[^1] but the indicators can also act as key predicators or outcome variables ipso facto. Because the indicators track 
 
+the trajectories of individual states, and how they compare nationally and with each other. 
+
 #racial inequalities in those differences 
 
 The indicators are well-suited for panel studies of social inequality across state populations, and were originally compiled as covariates to adjust for ommitted variable bias, but they can also act as key predicators and outcome variables ipso facto. track national too
