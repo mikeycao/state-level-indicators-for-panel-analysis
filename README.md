@@ -2,6 +2,8 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
+<img src="statePUN_logo.png" width="180" align="right">
+
 # statePUN: State-level panel covariates for estimating mass punishment and sociodemographic disparity, 2000–2018
 
 #racial inequalities in those differences 
