@@ -6,14 +6,16 @@
 
 #racial inequalities in those differences 
 
-This repository is for making several compiled state-level sociodemographic indicators publicly available for use in panel (or cross-sectional) analyses covering changes in U.S. states over the last two decades (2000 to 2018). 
+This repository is for making several compiled state-level sociodemographic indicators publicly available for use in panel (or cross-sectional) analyses covering within-variation in U.S. states across the last two decades (2000 to 2018). 
 
 
 The indicators are well-suited for panel studies of social inequality across state populations, and were originally compiled as covariates to adjust for ommitted variable bias, but they can also act as key predicators and outcome variables ipso facto. track national too
 
-The indicators were originally compiled to support research estimating the conditional effects of mass punishment rates (e.g., incarceration/probation/parole) at the state-level.
+The indicators were originally compiled to support research estimating the conditional effects of mass punishment rates (e.g., incarceration/probation/parole) at the state-level, and represent panels of comprehensive of variables that
 
 Since the individual state-level indicators are highly correlated with each other, introducing them separately into models may introduce unwelcome problems of multicollinearity. The individual-indicators are therefore leveraged as two combined scales: a poverty index (α = 0.73) and a population heterogeneity index (α = 0.88).
+
+All panel datasets are **balanced** and arranged in the **long format**, unless otherwise noted. 
 
 ## Repository Structure
 
