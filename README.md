@@ -36,7 +36,7 @@ The repository contains two main folders:
       - `(B) combined_population_heterogeneity_index_with_urbanicity.csv`
    - `individual data files/`
       - `(A) poverty index data/`
-         - `(1) low_educ_attainment_2000-2018.csv`
+         - `(1) low_educ_attainment.csv`
          - `(2) Black_population.csv`
          - `(3) population_poverty.csv`
          - `(4) TANF.csv`
