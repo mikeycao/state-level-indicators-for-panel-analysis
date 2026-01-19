@@ -5,13 +5,13 @@
 This repository is for making several compiled state-level sociodemographic indicators publicly available for use in panel (or cross-sectional) analyses covering changes in U.S. states over the last two decades (2000 to 2018). 
 The indicators are well-suited for panel studies of social inequality across state populations, and were originally compiled as covariates to adjust for ommitted variable bias, but they can also act as key predicators and outcome variables ipso facto. track national too
 
-Since the individual state-level indicators are highly correlated with each other, introducing them separately into models may introduce unwelcome problems of multicollinearity. The individual-indicators are therefore leveraged as two combined scales: a Poverty Index (α = 0.73) and a Population Heterogeneity Index (α = 0.88).
+Since the individual state-level indicators are highly correlated with each other, introducing them separately into models may introduce unwelcome problems of multicollinearity. The individual-indicators are therefore leveraged as two combined scales: a poverty index (α = 0.73) and a population heterogeneity index (α = 0.88).
 
 ## Repository Structure
 
 ### A. Composition of the Poverty Index 
 
-The Poverty Index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black resident population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) TANF caseloads (per 1000 state residents), and (5) GINI coefficients. All data extend between the years 2002 to 2018 for total national estimates and for all 50 U.S. states, although in the raw data files, data for 2000 and 2001 is included as well. 
+The poverty index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black resident population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) TANF caseloads (per 1000 state residents), and (5) GINI coefficients. All data extend between the years 2002 to 2018 for total national estimates and for all 50 U.S. states, although in the raw data files, data for 2000 and 2001 is included as well. 
 
 **A1.** For measure 1, the following sources were used: U.S. Department of Commerce, Census Bureau: Census Briefs, Educational Attainment; and American Community Survey (ACS) 1-Year data accessed through the Integrated Public Use Microdata Series (IPUMS).
 
@@ -33,7 +33,7 @@ _Notes_: 0 means perfect income equality; 1 means perfect income inequality; GIN
 
 ## B. Composition of Population Heterogeneity Index 
 
-The Population Heterogeneity Index consists of (1) the foreign-born resident population (decimal %), (2) the Hispanic resident population (decimal %), and an interpolated measure of resident populations living in urban areas (decimal %). 
+The population heterogeneity index consists of (1) the foreign-born resident population (decimal %), (2) the Hispanic resident population (decimal %), and an interpolated measure of resident populations living in urban areas (decimal %). 
 
 **B1.** For measure 1, the following sources were used: U.S. Census and single-year ACS accessed via IPUMS.
 
@@ -47,11 +47,11 @@ _Notes_: A variable recording Hispanic origin (hispan) from the U.S. Census/ACS 
 
 ## C. Combined Index Data 
 
-Two `.csv` files are included that provide a standardization (z-score transformation) of all individual measures used to compile the Poverty Index and Population Heterogeneity Index, as well as the compiled index value for each specific year and state. The `.csv` files are organized into a long-format to ease with data manipulation using statistical software. 
+Two `.csv` files are included that provide a standardization (z-score transformation) of all individual measures used to compile the poverty index and population heterogeneity index, as well as the compiled index value for each specific year and state. The `.csv` files are organized into a long-format to ease with data manipulation using statistical software. 
 
-_Notes_: For the Poverty Index, z1 refers to low educational attainment; z2 refers to the Black population share; z3 refers to individual poverty threshold rates; z4 refers to TANF cases; z5 refers to GINI coefficients. For the Population Heterogeneity index, z1 refers to the foreign born population; z2 refers to the Hispanic population; z3 refers to urbanicity.
+_Notes_: For the poverty index, z1 refers to low educational attainment; z2 refers to the Black population share; z3 refers to individual poverty threshold rates; z4 refers to TANF cases; z5 refers to GINI coefficients. For the population heterogeneity index, z1 refers to the foreign born population; z2 refers to the Hispanic population; z3 refers to urbanicity.
 
 ## D. Code 
 
-Analysis involving the Poverty Index and Population Heterogeneity Index was undertaken using `R`. Mainly, `R` code is provided to analyze the reliability coefficients using Cronbach's alpha, and additional code that was used to implement the linear spline interpolation of urbanicity. 
+Analysis involving the poverty index and population heterogeneity index was undertaken using `R`. Mainly, `R` code is provided to analyze the reliability coefficients using Cronbach's alpha, and additional code that was used to implement the linear spline interpolation of urbanicity. 
 
