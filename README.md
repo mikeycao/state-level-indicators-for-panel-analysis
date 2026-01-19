@@ -2,7 +2,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
-#  2000-2018
+# statePUN: Panel datasets for state-level mass punishment estimates, 2000-2018
 
 #racial inequalities in those differences 
 
