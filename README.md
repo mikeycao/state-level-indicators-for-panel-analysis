@@ -1,4 +1,4 @@
-# S 2000-2018
+#  2000-2018
 
 #racial inequalities in those differences 
 
@@ -7,7 +7,9 @@ The indicators are well-suited for panel studies of social inequality across sta
 
 Since the individual state-level indicators are highly correlated with each other, introducing them separately into models may introduce unwelcome problems of multicollinearity. The individual-indicators are therefore leveraged as two combined scales: a Poverty Index (α = 0.73) and a Population Heterogeneity Index (α = 0.88).
 
-## A. Composition of the Poverty Index 
+## Repository Structure
+
+### A. Composition of the Poverty Index 
 
 The Poverty Index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black resident population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) TANF caseloads (per 1000 state residents), and (5) GINI coefficients. All data extend between the years 2002 to 2018 for total national estimates and for all 50 U.S. states, although in the raw data files, data for 2000 and 2001 is included as well. 
 
