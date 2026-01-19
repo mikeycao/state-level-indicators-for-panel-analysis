@@ -1,4 +1,4 @@
-![Dataset](https://img.shields.io/badge/data-dataset-success)
+![Dataset](https://img.shields.io/badge/-dataset-success?logo=databricks&logoColor=white)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
