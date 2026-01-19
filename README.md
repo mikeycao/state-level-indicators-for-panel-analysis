@@ -8,6 +8,8 @@
 
 This repository is for making several compiled state-level sociodemographic indicators publicly available for use in panel (or cross-sectional) analyses covering within-variation in U.S. states across the last two decades (2000 to 2018). 
 
+All aspects of the criminal legal system—policing, probation, prisons/jails/detention centers, and other forms of social control/intervention
+
 
 The indicators are well-suited for panel studies of social inequality across state populations, and were originally compiled as covariates to adjust for ommitted variable bias, but they can also act as key predicators and outcome variables ipso facto. track national too
 
