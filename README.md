@@ -18,11 +18,11 @@ The repository contains two main folders:
    - `linear spline interpolation of urbanicity.R`
 + `data/`
    - `combined + transformed data files/`
-      - `(A) combined_poverty_index_2000-2018.csv`      
-      - `(B) combined_population_heterogeneity_index_with_urban_2000-2018.csv`
+      - `(A) combined_poverty_index.csv`      
+      - `(B) combined_population_heterogeneity_index_with_urban.csv`
    - `individual data files/`
       - `(A) poverty index data/`
-         - `(1) low_educ_attainment .csv`
+         - `(1) low_educ_attainment_2000-2018.csv`
          - `(2) Black_population.csv`
          - `(3) population_poverty.csv`
          - `(4) TANF.csv`
