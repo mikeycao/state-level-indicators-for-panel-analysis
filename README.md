@@ -4,6 +4,9 @@
 
 <img src="statePUN_logo.png" width="180" align="right">
 
+<img width="1248" height="848" alt="statePUN_logo" src="https://github.com/user-attachments/assets/2f028c39-5241-4e12-9927-9cec1f15f630" />
+
+
 # statePUN: State-level panel covariates for estimating mass punishment and sociodemographic disparity, 2000–2018
 
 #racial inequalities in those differences 
