@@ -22,9 +22,16 @@ The repository contains two main folders:
       - `(B) combined_population_heterogeneity_index_with_urban_2000-2018.csv`
    - `individual data files/`
       - `(A) poverty index data/`
-          - `(1) low_educ_attainment .csv`
-          - 
-      - `(B) population heterogeneity index data/`  
+         - `(1) low_educ_attainment .csv`
+         - `(2) Black_population.csv`
+         - `(3) population_poverty.csv`
+         - `(4) TANF.csv`
+         - `(5) GINI_coefficients.csv`
+      - `(B) population heterogeneity index data/`
+         - `(1) foreign_born_population.csv`
+         - `(2) Hispanic_population.csv`
+         - `(3) urbanicity_interpolated.csv`
+         - `PRE_spline_interpolation_urban_wide` 
 
 ### A. Composition of the Poverty Index 
 
