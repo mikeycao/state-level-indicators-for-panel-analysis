@@ -24,22 +24,22 @@ The repository contains two main folders:
 
 + `code/`: contains `R scripts` accompanying the data
    - `index reliability coefficient analysis.R`: code for reproducing reliability coefficients for the two indices 
-   - `linear spline interpolation of urbanicity.R`: code for reproducing the interpolation of urbanicity (data/individual data files/(B) population heterogeneity index data/PRE_spline_interpolation_urban.csv)
-+ `data/`: harmonized panel data for all 50 U.S. states, 2000-2018
+   - `linear spline interpolation of urbanicity.R`: code for reproducing the interpolation of urbanicity (file path: `data/individual data files/(B) population heterogeneity index data/PRE_spline_interpolation_urban.csv`)
++ `data/`: harmonized sociodemographic panel data for all 50 U.S. states, 2000-2018
    - `combined data files/`: 
       - `(A) combined_poverty_index.csv`: composite poverty index after individual indicators were combined and standardized, arranged in the long format in anticipation of ad hoc data processing/manipulation
       - `(B) combined_population_heterogeneity_index_with_urbanicity.csv`: composite population heterogeneity index after individual indicators were combined and standardized, arranged in the long format in anticipation of ad hoc data processing/manipulation
    - `individual data files/`: indicator panel datasets arranged for individual analysis
-      - `(A) poverty index data/`
+      - `(A) poverty index data/`: 
          - `(1) low_educ_attainment.csv`: low educational attainment (% of state population)
          - `(2) Black_population.csv`: Black population (% of state population) 
          - `(3) population_poverty.csv`: below federal poverty threshold (% of state population)
          - `(4) TANF.csv`: Temporary Assistance for Needy Families (TANF) caseloads (per 1000 of state population) 
          - `(5) Gini_coefficients.csv`: Gini coefficients 
       - `(B) population heterogeneity index data/`
-         - `(1) foreign_born_population.csv`
-         - `(2) Hispanic_population.csv`
-         - `(3) urbanicity_interpolated.csv`
+         - `(1) foreign_born_population.csv`: foreign-born population (% of state population)
+         - `(2) Hispanic_population.csv`: Hispanic population (% of state population) 
+         - `(3) urbanicity_interpolated.csv`: 
          - `PRE_spline_interpolation_urban_wide` 
 
 ### A. Composition of the Poverty Index 
