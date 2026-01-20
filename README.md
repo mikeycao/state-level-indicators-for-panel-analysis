@@ -14,9 +14,10 @@ On their own, the panel datasets are intended as public tools for summarizing th
 
 Since the individual state-level indicators are highly correlated with each other, introducing them separately into models may introduce unwelcome problems of multicollinearity. The individual-indicators are therefore leveraged as two combined scales: a poverty index (α = 0.73) and a population heterogeneity index (α = 0.88).
 
-All panel datasets are **balanced** and arranged in the **wide format** for understanding the dimensionality of the data, unless otherwise noted. 
+All panel datasets are **balanced** and arranged in the **wide format** for understanding the dimensionality of the data, unless otherwise noted.[^2] 
 
 [^1]: For example, endogeneity can occur between incarceration rates and popular dependent variables, like household wealth or mortality, when a confounder such as educational attainment is omitted from estimates. 
+[^2]: A few select panel datasets are arranged in the long format, in anticipation of ad hoc data processing/manipulation users may perform
 
 ## Repository Structure
 
@@ -27,8 +28,8 @@ The repository contains two main folders:
    - `linear spline interpolation of urbanicity.R`: code for reproducing the interpolation of urbanicity (file path: `data/individual data files/(B) population heterogeneity index data/PRE_spline_interpolation_urban.csv`)
 + `data/`: harmonized sociodemographic panel data for all 50 U.S. states, 2000-2018
    - `combined data files/`: 
-      - `(A) combined_poverty_index.csv`: composite poverty index after individual indicators were combined and standardized, arranged in the long format in anticipation of ad hoc data processing/manipulation
-      - `(B) combined_population_heterogeneity_index_with_urbanicity.csv`: composite population heterogeneity index after individual indicators were combined and standardized, arranged in the long format in anticipation of ad hoc data processing/manipulation
+      - `(A) combined_poverty_index.csv`: composite poverty index after individual indicators were combined and standardized, arranged in the long format
+      - `(B) combined_population_heterogeneity_index_with_urbanicity.csv`: composite population heterogeneity index after individual indicators were combined and standardized, arranged in the long format 
    - `individual data files/`: indicator panel datasets arranged for individual analysis
       - `(A) poverty index data/`: 
          - `(1) low_educ_attainment.csv`: low educational attainment (% of state population)
@@ -39,7 +40,7 @@ The repository contains two main folders:
       - `(B) population heterogeneity index data/`
          - `(1) foreign_born_population.csv`: foreign-born population (% of state population)
          - `(2) Hispanic_population.csv`: Hispanic population (% of state population) 
-         - `(3) urbanicity_interpolated.csv`: 
+         - `(3) urbanicity_interpolated.csv`: residing in urban areas (% of state population), post-interpolation, arranged in the long format 
          - `PRE_spline_interpolation_urban_wide` 
 
 ### A. Composition of the Poverty Index 
