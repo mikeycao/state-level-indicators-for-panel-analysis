@@ -17,7 +17,7 @@ Since the individual state-level indicators are highly correlated with each othe
 All panel datasets are **balanced** and arranged in the **wide format** for understanding the dimensionality of the data, unless otherwise noted.[^2] 
 
 [^1]: For example, endogeneity can occur between incarceration rates and popular dependent variables, like household wealth or mortality, when a confounder such as educational attainment is omitted from estimates. 
-[^2]: A few select panel datasets are arranged in the long format, in anticipation of ad hoc data processing/manipulation users may perform
+[^2]: A few select panel datasets are arranged in the long format, in anticipation of ad hoc data processing/manipulation users may perform.
 
 ## Repository Structure
 
@@ -41,7 +41,7 @@ The repository contains two main folders:
          - `(1) foreign_born_population.csv`: foreign-born population (% of state population)
          - `(2) Hispanic_population.csv`: Hispanic population (% of state population) 
          - `(3) urbanicity_interpolated.csv`: residing in urban areas (% of state population), post-interpolation, arranged in the long format 
-         - `PRE_spline_interpolation_urban_wide` 
+         - `PRE_spline_interpolation_urban_wide`: pre-interpolated urbanicity 
 
 ### A. Composition of the Poverty Index 
 
