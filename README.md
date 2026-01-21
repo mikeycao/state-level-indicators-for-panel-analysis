@@ -93,9 +93,7 @@ _Notes_: For the poverty index, z1 refers to low educational attainment; z2 refe
 
 ### State Crime Rates
 
-Additional indicators involving state (per 100,000) rates for homicide, all violent crime, and all property crime offenses are also included in the repository, given their potential high collinearity with state imprisonment rates. Data for all states and panel years was scraped from the Crime Data Explorer tool administered by the [FBI Uniform Crime Reporting Program (UCR)](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr), 
-
-
+Additional indicators involving state (per 100,000) rates for homicide, all violent crime, and all property crime offenses are also included in the repository, given their potential high collinearity with state imprisonment rates. Data for all states and panel years was scraped and compiled using the Crime Data Explorer tool administered by the [FBI Uniform Crime Reporting Program (UCR)](https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr). 
 
 ## Code 
 
