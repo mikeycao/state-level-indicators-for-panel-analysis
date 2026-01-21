@@ -43,7 +43,7 @@ The repository contains two main folders:
          - `(3) urbanicity_interpolated.csv`: residing in urban areas (% of state population), post-interpolation, arranged in the long format 
          - `PRE_spline_interpolation_urban_wide`: pre-interpolated urbanicity 
 
-### A. Composition and Data Sources of the Poverty Index 
+### (A) Composition and Data Sources of the Poverty Index 
 
 The poverty index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black resident population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents), and (5) GINI coefficients. All data extend between the years 2000 to 2018 for total national estimates and for all 50 U.S. states.
 
@@ -65,7 +65,7 @@ _Notes_: Caseload data was drawn from calendar year averages of the total number
 
 _Notes_: 0 means perfect income equality; 1 means perfect income inequality; GINIs from 2000 to 2005 were rounded to two decimal places.
 
-## B. Composition and Data Sources of the Population Heterogeneity Index 
+## (B) Composition and Data Sources of the Population Heterogeneity Index 
 
 The population heterogeneity index consists of (1) the foreign-born resident population (decimal %), (2) the Hispanic resident population (decimal %), and an interpolated indicator of resident populations living in urban areas (decimal %). 
 
@@ -79,13 +79,13 @@ _Notes_: A variable recording Hispanic origin (hispan) from the U.S. Census/ACS 
 
 **B3.** For indicator 3, official government data on urban populations is affected by issues of missingness and definitional variation in how the U.S. Census Bureau quantifies urbanicity across census years and 1-year estimates. In an attempt to overcome these two problems, a linear spline interpolation of the Decennial Census of Population and Housing (available through the Iowa State University Community Indicators Program) that recorded the urban population percentages from 1900 to 2010 was implemented. The interpolation was decidedly based from the 2000 to 2010 data points because those years best shared a stable definition of what the Census Bureau defined as “urban”. A linear spline interpolation was chosen given the steady-state demographic growth observed in urbanicity percentages dating back to the 1900s as opposed to abrupt changes; the large gaps in the missing data; and the broadness of the panel across which data needed to be interpolated.
 
-## C. Combined Index Data 
+## Combined Index Data 
 
 Two `.csv` files are included that provide a standardization (z-score transformation) of all individual indicators used to compile the poverty index and population heterogeneity index, as well as the compiled index value for each specific year and state. The `.csv` files are organized into a long-format to ease with data manipulation using statistical software. 
 
 _Notes_: For the poverty index, z1 refers to low educational attainment; z2 refers to the Black population share; z3 refers to individual poverty threshold rates; z4 refers to TANF cases; z5 refers to GINI coefficients. For the population heterogeneity index, z1 refers to the foreign born population; z2 refers to the Hispanic population; z3 refers to urbanicity.
 
-## D. Code 
+## Code 
 
 Analysis involving the poverty index and population heterogeneity index was undertaken using `R`. Mainly, `R` code is provided to analyze the reliability coefficients using Cronbach's alpha, and additional code that was used to implement the linear spline interpolation of urbanicity. 
 
