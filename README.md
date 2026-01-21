@@ -106,9 +106,9 @@ Cao, Michael. 2026. _statePUN: State-level panel covariates for estimating mass 
 
 ```bibtex
 @dataset{cao2026statepun,
-  title  = {statePUN: State-level panel covariates for estimating mass punishment and sociodemographic disparity, 2000--2018},
-  author = {Cao, Michael},
-  year   = {2026},
-  version= {1.0.0}
-  url    = {https://github.com/mikeycao/statePUN}
+  title     = {statePUN: State-level panel covariates for estimating mass punishment and sociodemographic disparity, 2000--2018},
+  author    = {Cao, Michael},
+  year      = {2026},
+  version   = {1.0.0}
+  url       = {https://github.com/mikeycao/statePUN}
 }
