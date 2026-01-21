@@ -99,7 +99,7 @@ Additional indicators involving state (per 100,000) rates for homicide, all viol
 
 Analysis involving the poverty index and population heterogeneity index was undertaken using `R`. Mainly, `R` code is provided to analyze the reliability coefficients using Cronbach's alpha, and additional code that was used to implement the linear spline interpolation of urbanicity. 
 
-## Citation 
+## Citing statePUN 
 
 
 
