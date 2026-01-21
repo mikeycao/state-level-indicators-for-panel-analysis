@@ -35,13 +35,17 @@ The repository contains two main folders:
          - `(1) low_educ_attainment.csv`: low educational attainment (% of state population)
          - `(2) Black_population.csv`: Black population (% of state population) 
          - `(3) population_poverty.csv`: below federal poverty threshold (% of state population)
-         - `(4) TANF.csv`: Temporary Assistance for Needy Families (TANF) caseloads (per 1000 of state population) 
+         - `(4) TANF.csv`: Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents) 
          - `(5) Gini_coefficients.csv`: Gini coefficients 
       - `(B) population heterogeneity index data/`
          - `(1) foreign_born_population.csv`: foreign-born population (% of state population)
          - `(2) Hispanic_population.csv`: Hispanic population (% of state population) 
          - `(3) urbanicity_interpolated.csv`: residing in urban areas (% of state population), post-interpolation, arranged in the long format 
-         - `PRE_spline_interpolation_urban_wide`: pre-interpolated urbanicity 
+         - `PRE_spline_interpolation_urban_wide`: pre-interpolated urbanicity
+      - `other indicators: state crime rates`: some additional non-index indicators involving state crime rates
+         - `(1) homicide_rates.csv`: homicide rates (per 100,000 state residents)
+         - `(2) violent_crime_rates.csv`: violent crime rates (per 100,000 state residents)
+         - `(3) property_crime_rates.csv`: property crime rates (per 100,000 state residents) 
 
 ## (A) Composition and Data Sources of the Poverty Index 
 
