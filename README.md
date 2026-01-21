@@ -102,7 +102,11 @@ Analysis involving the poverty index and population heterogeneity index was unde
 
 ## Citing statePUN 
 
-`statePUN` is made available under a Creative Commons CC0 1.0 license, meaning it is dedicated to the public domain and may be freely used, shared, and modified.
+`statePUN` is made available under a Creative Commons CC0 1.0 license, meaning it is dedicated to the public domain and may be freely used, shared, and modified. 
+
+Authors:
+
+Michael Cao. Author, maintainer. 
 
 Suggested citation:
 
