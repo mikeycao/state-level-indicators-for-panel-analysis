@@ -1,6 +1,5 @@
 ![Dataset](https://img.shields.io/badge/-datasets-success?)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 <img width="180" align="right" alt="statePUN_logo" src="https://github.com/user-attachments/assets/85c68b77-3925-4481-a18b-0a5e15cd7dde" />
 
