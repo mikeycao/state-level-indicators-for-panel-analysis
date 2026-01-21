@@ -106,7 +106,7 @@ Analysis involving the poverty index and population heterogeneity index was unde
 
 Suggested citation:
 
-`Cao, Michael. 2026. _statePUN: State-level panel covariates for estimating mass punishment and sociodemographic disparity, 2000–2018_(v1.0.0) [Data set], https://github.com/mikeycao/statePUN.`
+Cao, Michael. 2026. _statePUN: State-level panel covariates for estimating mass punishment and sociodemographic disparity, 2000–2018_(v1.0.0) [Data set], https://github.com/mikeycao/statePUN.
 
 ```bibtex
 @dataset{cao2026statepun,
