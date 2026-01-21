@@ -89,7 +89,18 @@ Two `.csv` files are included that provide a standardization (z-score transforma
 
 _Notes_: For the poverty index, z1 refers to low educational attainment; z2 refers to the Black population share; z3 refers to individual poverty threshold rates; z4 refers to TANF cases; z5 refers to GINI coefficients. For the population heterogeneity index, z1 refers to the foreign born population; z2 refers to the Hispanic population; z3 refers to urbanicity.
 
+## Additional Indicators
+
+### State Crime Rates
+
+Additional indicators involving state crime offense rates are also included in the repository, given their collinearity with  
+
+
+
 ## Code 
 
 Analysis involving the poverty index and population heterogeneity index was undertaken using `R`. Mainly, `R` code is provided to analyze the reliability coefficients using Cronbach's alpha, and additional code that was used to implement the linear spline interpolation of urbanicity. 
+
+### Citation 
+
 
