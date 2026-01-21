@@ -1,4 +1,4 @@
-#title: "index reliability coefficient analysis"
+#title: "index_reliability_coefficient_analysis"
 #date: "2025-05-20"
  
 #R packages to be installed (if not already) and loaded
@@ -15,5 +15,6 @@ df <- read.csv(file.choose()) #select the .csv file "combined_population_heterog
 pophetindex <- df[, c("z1", "z2", "z3")]
 alpha_result <- alpha(pophetindex, discrete = FALSE)
 alpha_result$total
+
 
 
