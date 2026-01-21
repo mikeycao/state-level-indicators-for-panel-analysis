@@ -31,7 +31,7 @@ The repository contains two main folders:
       - `(B) combined_population_heterogeneity_index_with_urbanicity.csv`: composite population heterogeneity index after individual indicators were combined and standardized, arranged in the long format 
    - `individual data files/`: indicator panel datasets arranged for individual analysis
       - `(A) poverty index data/`: 
-         - `(1) low_educ_attainment.csv`: low educational attainment (% of state population)
+         - `(1) low_educational_attainment.csv`: low educational attainment (% of state population)
          - `(2) Black_population.csv`: Black population (% of state population) 
          - `(3) population_poverty.csv`: below federal poverty threshold (% of state population)
          - `(4) TANF.csv`: Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents) 
