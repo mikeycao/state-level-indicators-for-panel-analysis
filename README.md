@@ -49,7 +49,7 @@ The repository contains two main folders:
 
 ## (A) Composition and Data Sources of the Poverty Index 
 
-The poverty index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black resident population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents), and (5) GINI coefficients. All data extend between the years 2000 to 2018 for total national estimates and for all 50 U.S. states.
+The poverty index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents), and (5) GINI coefficients. All data extend between the years 2000 to 2018 for total national estimates and for all 50 U.S. states.
 
 **A1.** For indicator 1, the following sources were used: U.S. Department of Commerce, Census Bureau: Census Briefs, Educational Attainment; and American Community Survey (ACS) 1-Year data accessed through the Integrated Public Use Microdata Series (IPUMS).
 
@@ -71,11 +71,11 @@ _Notes_: 0 means perfect income equality; 1 means perfect income inequality; GIN
 
 ## (B) Composition and Data Sources of the Population Heterogeneity Index 
 
-The population heterogeneity index consists of (1) the foreign-born resident population (decimal %), (2) the Hispanic resident population (decimal %), and an interpolated indicator of resident populations living in urban areas (decimal %). 
+The population heterogeneity index consists of (1) the foreign-born population (decimal %), (2) the Hispanic population (decimal %), and an interpolated indicator of residents living in urban areas (decimal %). 
 
 **B1.** For indicator 1, the following sources were used: U.S. Census and single-year ACS accessed via IPUMS.
 
-_Notes_: Foreign-born status was treated as those born as U.S. citizens (including those born in Puerto Rico, U.S. Virgin Islands, and Guam), using the birthplace (bpl) variable in the Census/ACS codebook. We also accounted for individuals foreign-born, but to parents with U.S. citizenship (and thus are considered native). Naturalized citizens are treated as foreign-born for the purpose of analysis. 
+_Notes_: Foreign-born status was treated as those born as U.S. citizens (including those born in Puerto Rico, U.S. Virgin Islands, and Guam), using the birthplace (bpl) variable in the Census/ACS codebook. Also accounted for are individuals foreign-born, but to parents with U.S. citizenship (and thus are considered native). Naturalized citizens are treated as foreign-born for the purpose of analysis. 
 
 **B2.** For indicator 2, the following sources were used: U.S. Census and single-year ACS accessed via IPUMS.
 
