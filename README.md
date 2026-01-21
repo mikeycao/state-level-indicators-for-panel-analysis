@@ -48,7 +48,7 @@ The repository contains two main folders:
 
 ## (A) Composition and Data Sources of the Poverty Index 
 
-The poverty index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old with less than a high school education (decimal %), (2) the Black population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents), and (5) GINI coefficients. 
+The poverty index consists of (1) low educational attainment, operationalized by the population of those at least 25 years old that did not complete high school (decimal %), (2) the Black population (decimal %), (3) state residents (as individuals) that are 138% at or below the federal poverty threshold (decimal %), (4) Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents), and (5) GINI coefficients. 
 
 **A1.** For indicator 1, the following sources were used: U.S. Department of Commerce, Census Bureau: Census Briefs, Educational Attainment; and American Community Survey (ACS) 1-Year data accessed through the Integrated Public Use Microdata Series (IPUMS).
 
