@@ -7,7 +7,6 @@ library(tidyverse)
 
 #Interpolating urbanicity
 data <- read.csv(file.choose()) #select the .csv file "PRE_spline_interpolation urban_.csv" found in the individual data files folder for the population heterogeneity index
-data_long <- data.frame(data)
 data_long <- data_long %>% gather(key = "Year", value = "Value", c(-X1), na.rm = FALSE)
 head(data_long)
 data_long_interpolated <- data_long %>%
@@ -18,3 +17,4 @@ data_long_interpolated <- data_long %>%
   arrange(X1, Year)
 data_long_interpolated$Year <- as.numeric(sub("X", "", data_long_interpolated$Year))
 write.csv(data_long_interpolated, file = "linear_spline_interpolation_urbanicity.csv")
+
