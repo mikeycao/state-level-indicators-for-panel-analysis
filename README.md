@@ -31,20 +31,20 @@ The repository contains two main folders:
       - `combined_population_heterogeneity_index_with_urbanicity.csv`: composite population heterogeneity index after individual indicators were combined and standardized, arranged in the long format 
    - `individual data files/`: indicator panel datasets arranged for individual analysis
       - `(A) poverty index data/`: 
-         - `(1) low_educational_attainment.csv`: low educational attainment (% of state population)
-         - `(2) Black_population.csv`: Black population (% of state population) 
-         - `(3) population_poverty.csv`: below federal poverty threshold (% of state population)
-         - `(4) TANF.csv`: Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents) 
-         - `(5) Gini_coefficients.csv`: Gini coefficients 
+         - `(1)_low_educational_attainment.csv`: low educational attainment (% of state population)
+         - `(2)_Black_population.csv`: Black population (% of state population) 
+         - `(3)_population_poverty.csv`: below federal poverty threshold (% of state population)
+         - `(4)_TANF.csv`: Temporary Assistance for Needy Families (TANF) caseloads (per 1000 state residents) 
+         - `(5)_Gini_coefficients.csv`: Gini coefficients 
       - `(B) population heterogeneity index data/`
-         - `(1) foreign_born_population.csv`: foreign-born population (% of state population)
-         - `(2) Hispanic_population.csv`: Hispanic population (% of state population) 
-         - `(3) urbanicity_interpolated.csv`: residing in urban areas (% of state population), post-interpolation, arranged in the long format 
+         - `(1)_foreign_born_population.csv`: foreign-born population (% of state population)
+         - `(2)_Hispanic_population.csv`: Hispanic population (% of state population) 
+         - `(3)_urbanicity_interpolated.csv`: residing in urban areas (% of state population), post-interpolation, arranged in the long format 
          - `PRE_spline_interpolation_urban_wide`: pre-interpolated urbanicity
       - `additional indicators/`: supplementary folder containing additional (non-index) indicators covering state crime rates
-         - `(1) homicide_rates.csv`: homicide rates (per 100,000 state residents)
-         - `(2) violent_crime_rates.csv`: violent crime rates (per 100,000 state residents)
-         - `(3) property_crime_rates.csv`: property crime rates (per 100,000 state residents) 
+         - `(1)_homicide_rates.csv`: homicide rates (per 100,000 state residents)
+         - `(2)_violent_crime_rates.csv`: violent crime rates (per 100,000 state residents)
+         - `(3)_property_crime_rates.csv`: property crime rates (per 100,000 state residents) 
 
 ## (A) Composition and Data Sources of the Poverty Index 
 
