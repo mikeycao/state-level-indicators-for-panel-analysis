@@ -56,7 +56,7 @@ The poverty index consists of (1) low educational attainment, operationalized by
 
 **A2.** For indicator 2, the following sources were used: Statistical Abstracts of the U.S. 
 
-_Notes_: For select years, percentages had to be manually calculated by dividing the total count of the Black resident population over the total state resident population for that year --- data was taken from Statistical Abstracts of the U.S. Estimates are for residents identified as non-Hispanic Black. For 2001, racial demographic data from Statistical Abstracts could not be found, and data was instead pulledfrom the Current Population Survey (CPS).
+_Notes_: For select years, percentages had to be manually calculated by dividing the total count of the Black resident population over the total state resident population for that year --- data was taken from Statistical Abstracts of the U.S. Estimates are for residents identified as non-Hispanic Black. For 2001, racial demographic data from Statistical Abstracts could not be found, and data was instead pulled from the Current Population Survey (CPS).
 
 **A3.** For indicator 3, the following sources were used: U.S. Census and single-year ACS data accessed via IPUMS. 
 
